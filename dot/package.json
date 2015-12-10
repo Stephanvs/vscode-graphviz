@@ -1,0 +1,26 @@
+{
+	"name": "dot",
+	"displayName": "Graphviz",
+	"description": "Visual Studio Code support for Graphviz",
+	"version": "0.0.1",
+	"publisher": "Stephan van Stekelenburg",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "dot",
+			"aliases": ["Graphviz (DOT)", "dot"],
+			"extensions": [".dot",".DOT",".gv"],
+			"configuration": "./dot.configuration.json"
+		}],
+		"grammars": [{
+			"language": "dot",
+			"scopeName": "source.dot",
+			"path": "./syntaxes/dot.tmLanguage"
+		}]
+	}
+}
