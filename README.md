@@ -1,7 +1,7 @@
 # vscode-graphviz
 This extension provides GraphViz (dot) language support for [VS Code](https://code.visualstudio.com/).
 
-# Features
+# Functionality
 - Syntax Highlighting
 - Snippets
     - `graph` Graph Template
@@ -15,4 +15,12 @@ This extension provides GraphViz (dot) language support for [VS Code](https://co
     - `path` Path from -> {to list}
     - `rank` { rank=same|min|max; x; y }
 
+# Install
+
+Open up VS Code and hit `F1` and type `ext` select `install` and type `dot` hit enter and reload window to enable.
+
 ![Preview of Syntax Highlighting](img/syntax.png)
+
+# Attribution
+
+"GraphvizLogo" by Source. Licensed under Fair use via [Wikipedia](https://en.wikipedia.org/wiki/File:GraphvizLogo.png#/media/File:GraphvizLogo.png)

@@ -1,11 +1,16 @@
 {
     "name": "dot",
-    "displayName": "Graphviz",
-    "description": "Visual Studio Code support for Graphviz",
+    "displayName": "Graphviz (dot) language support for Visual Studio Code",
+    "description": "This extension provides GraphViz (dot) language support for Visual Studio Code",
     "version": "0.0.1",
-    "publisher": "Stephan van Stekelenburg",
+    "publisher": "Stephanvs",
     "engines": {
         "vscode": "^0.10.1"
+    },
+    "icon": "img/GraphvizLogo.png",
+    "galleryBanner": {
+        "color": "#69c",
+        "theme": "light"
     },
     "categories": [
         "Languages",
