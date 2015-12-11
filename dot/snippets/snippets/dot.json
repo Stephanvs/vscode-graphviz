@@ -74,7 +74,7 @@
         ],
         "description": "Path from -> {to list}"
     },
-    "{rank=same|min|max; x; y}": {
+    "{ rank=same|min|max; x; y }": {
         "prefix": "rank",
         "body": [
             "{ rank=${1:|same,min,max,# max is bottom|}; ${2:space delimitted list }};"
