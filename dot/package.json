@@ -1,31 +1,53 @@
 {
-	"name": "dot",
-	"displayName": "Graphviz",
-	"description": "Visual Studio Code support for Graphviz",
-	"version": "0.0.1",
-	"publisher": "Stephan van Stekelenburg",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Languages",
-		"Snippets"
-	],
-	"contributes": {
-		"languages": [{
-			"id": "dot",
-			"aliases": ["Graphviz (DOT)", "dot"],
-			"extensions": [".dot",".DOT",".gv"],
-			"configuration": "./dot.configuration.json"
-		}],
-		"grammars": [{
-			"language": "dot",
-			"scopeName": "source.dot",
-			"path": "./syntaxes/dot.tmLanguage"
-		}],
-		"snippets": [{
-			"language": "dot", 
-			"path": "./snippets/snippets.json" 
-		}]
-	}
+    "name": "dot",
+    "displayName": "Graphviz",
+    "description": "Visual Studio Code support for Graphviz",
+    "version": "0.0.1",
+    "publisher": "Stephan van Stekelenburg",
+    "engines": {
+        "vscode": "^0.10.1"
+    },
+    "categories": [
+        "Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "dot",
+                "aliases": [
+                    "Graphviz (DOT)",
+                    "dot"
+                ],
+                "extensions": [
+                    ".dot",
+                    ".DOT",
+                    ".gv"
+                ],
+                "configuration": "./dot.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "dot",
+                "scopeName": "source.dot",
+                "path": "./syntaxes/dot.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "dot",
+                "path": "./snippets/snippets/dot.json"
+            }
+        ]
+    },
+    "license": "https://github.com/Stephanvs/vscode-graphviz/blob/master/LICENSE",
+    "bugs": {
+        "url": "https://github.com/Stephanvs/vscode-graphviz/issues"
+    },
+    "homepage": "https://github.com/Stephanvs/vscode-graphviz/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Stephanvs/vscode-graphviz.git"
+    }
 }
