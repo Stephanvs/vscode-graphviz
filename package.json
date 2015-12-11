@@ -29,20 +29,20 @@
                     ".DOT",
                     ".gv"
                 ],
-                "configuration": "./dot.configuration.json"
+                "configuration": "dot/dot.configuration.json"
             }
         ],
         "grammars": [
             {
                 "language": "dot",
                 "scopeName": "source.dot",
-                "path": "./syntaxes/dot.tmLanguage"
+                "path": "dot/syntaxes/dot.tmLanguage"
             }
         ],
         "snippets": [
             {
                 "language": "dot",
-                "path": "./snippets/snippets/dot.json"
+                "path": "dot/snippets/snippets/dot.json"
             }
         ]
     },
