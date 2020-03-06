@@ -2,7 +2,10 @@
     "name": "dot",
     "displayName": "Graphviz (dot) language support for Visual Studio Code",
     "description": "This extension provides GraphViz (dot) language support for Visual Studio Code",
-    "version": "0.0.1",
+    "version": "0.1.0",
+    "contributors": [
+        "Dennis Pettersson <mail@dennispettersson.se>"
+    ],
     "publisher": "Stephanvs",
     "engines": {
         "vscode": "^0.10.1"
@@ -13,7 +16,7 @@
         "theme": "light"
     },
     "categories": [
-        "Languages",
+        "Programming Languages",
         "Snippets"
     ],
     "contributes": {
@@ -43,6 +46,18 @@
             {
                 "language": "dot",
                 "path": "dot/snippets/snippets/dot.json"
+            },
+            {
+                "language": "dot",
+                "path": "dot/snippets/snippets/principalNodeAttributes.json"
+            },
+            {
+                "language": "dot",
+                "path": "dot/snippets/snippets/principalEdgeAttributes.json"
+            },
+            {
+                "language": "dot",
+                "path": "dot/snippets/snippets/principalGraphAttributes.json"
             }
         ]
     },
